@@ -9,4 +9,4 @@ count = 10
 while result == 0 and count >0:
 	time.sleep(10)
 	result=os.system('rasdial adsl aviot 32113211')
-	count += 1
+	count -= 1
